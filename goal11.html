@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Goal 11</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #ffffff;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            width: 100%;
+        }
+
+        .card {
+            width: 40%;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-header {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .card-content {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .card-image {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .card-text {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .cat-card {
+            background-color: #61f2c2; 
+            color: #000000;
+        }
+
+        .dog-card {
+            background-color: #f77234; 
+            color: #000000;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #8a2be2; 
+            color: #000000;
+            text-align: center;
+            font-size: 10px;
+            padding: 4px 0;
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="cards-container">
+        
+        <div class="card cat-card">
+            <div class="card-header">CatCSS</div>
+            <div class="card-content">
+                <img class="card-image" src="cat.jpeg" alt="Cat in a box">
+                <div class="card-text">
+                    Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog smells bad gnaw.
+                </div>
+            </div>
+        </div>
+
+        <div class="card dog-card">
+            <div class="card-header">DogCSS</div>
+            <div class="card-content">
+                <img class="card-image" src="dog.jpeg" alt="Puppies in a basket">
+                <div class="card-text">
+                    Heckin good boys and girls long woofer big ol wow very biscit long woofer heck what a nice floof, long doggo noodle horse vvv very taste wow. Very taste wow many pats aqua doggo he made many woofs pupperino, puggo doing me a frighten.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        Copyright. This is the footer
+    </footer>
+
+    </body>
+</html>
